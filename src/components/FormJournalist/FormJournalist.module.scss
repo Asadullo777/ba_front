@@ -1,0 +1,45 @@
+.formJournalist {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.logoBa {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 40px;
+}
+
+.inputJournalist {
+  margin: 0px auto 30px auto;
+  width: 400px;
+  height: 30px;
+  background-color: #ffffec;
+  border: 1px solid #ececff;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -1px 0 8px -5px #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  outline: none;
+  color: rgb(83, 100, 113);
+  padding-left: 12px;
+
+  &:hover {
+    background-color: #ffffff;
+    border: 1px solid #56b4ef;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset,
+      0 0 8px rgba(82, 168, 236, 0.6);
+  }
+}
+
+.buttonSendPost {
+  width: 150px;
+  margin-left: 600px;
+  margin-top: 70px;
+}
