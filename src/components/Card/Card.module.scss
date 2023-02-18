@@ -1,0 +1,17 @@
+.cardGroup {
+  margin-top: 50px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+}
+.card {
+  text-align: center;
+}
+.cardImg {
+  height: 250px;
+  width: 90%;
+  border-radius: 20px;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-top: 10px;
+}

@@ -1,8 +1,14 @@
 import React from 'react'
-import Header from '../components/Header/Header'
+import Cards from '../components/Card/Card'
+import  Header  from '../components/Header/Header'
+
 
 export const HomePage = () => {
   return (
+   <>
     <Header />
+    <Cards/>
+   </>
+
   )
 }
