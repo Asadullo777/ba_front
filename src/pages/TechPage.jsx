@@ -1,7 +1,8 @@
 import React from 'react'
+import Header from '../components/Header/Header'
 
 export const TechPage = () => {
   return (
-    <div>TechPage</div>
+    <Header />
   )
 }
